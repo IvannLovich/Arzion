@@ -1,0 +1,32 @@
+.images{
+  margin-top: 2rem;
+  text-align: center;
+}
+
+
+.images .foto{
+  float: right;
+  width: 25%;
+
+}
+
+.images .foto img{
+  width: 95%;
+}
+
+
+
+
+
+@media (max-width: 828px) {
+  .images .foto{
+    width: 50%;
+
+  }
+
+  .images .foto img{
+    width: 100%;
+  }
+
+
+}

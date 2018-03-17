@@ -1,0 +1,29 @@
+{
+"id": 3,
+"name": "Hotel Majestic",
+"description": "It will never fail",
+"starRating": 4,
+"images": ["https://s3-media1.fl.yelpcdn.com/bphoto/SEgFxRsuWNvyUlzk5dWS2g/ls.jpg"],
+"gallery": [
+      {
+      "img1":"https://www.cataloniahotels.com/es/blog/wp-content/uploads/2015/06/hoteles-en-madrid-150x150.jpg",
+      "img2":"http://i2.wp.com/hotelesconencanto.me/wp-content/uploads/Hard-Rock-Hotel-ibiza.jpg?resize=150%2C150",
+      "img3":"http://www.wyshmoorinteriors.com/wp-content/uploads/2018/02/nuevo-hoteles-con-jacuzzi-en-la-habitacion-suites-del-hotel-of-hotel-con-jacuzzi-en-la-habitacion-barcelona-150x150.jpg",
+      "img4":"http://fundiexpo.com/wp-content/uploads/2015/12/domun-hotel-qro-150x150.jpg"
+      }
+
+  ],
+
+"priceMin": 80,
+"priceMax":300,
+"averageRatePerNight": 80,
+"isAvailable": true,
+"lastUpdate": 1011699576,
+"ratePlansAvailable": [
+            {
+            "id": 3,
+            "name": "All inclusive"
+            }
+        ]
+
+}

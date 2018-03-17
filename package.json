@@ -1,0 +1,65 @@
+{
+  "name": "arzion",
+  "version": "1.0.0",
+  "description": "Proyecto de frontend para Arzion",
+  "main": "/build/app.js",
+  "scripts": {
+    "build": "webpack --colors",
+    "serve": "webpack-dev-server --content-base build/ --color --progress",
+    "start": "npm run build && npm run serve",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "author": "Ivan Lovich",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-jest": "^22.4.1",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.9",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "eslint": "^4.18.1",
+    "eslint-loader": "^1.9.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^2.30.1",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^22.4.2",
+    "sinon": "^4.4.2",
+    "style-loader": "^0.20.2",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "firebase": "^4.10.1",
+    "normalize.css": "^8.0.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.1.1",
+    "uuid": "^3.2.1"
+  },
+  "standard": {
+    "ignore": [
+      "/build/"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "standard",
+      "standard-jsx"
+    ]
+  },
+  "stylelint": {
+    "extends": "stylelint-config-standard"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(css)$": "identity-obj-proxy"
+    }
+  }
+}

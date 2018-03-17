@@ -1,0 +1,29 @@
+{
+"id": 4,
+"name": "Sheraton",
+"description": "Amazing place",
+"starRating": 4,
+"images": ["http://www.travelagewest.com/uploadedImages/TAW_Photo_Tours_-_Videos/Hotels/Virgin%20Hotels%20Nashville_3_sqcrop.jpg"],
+"gallery": [
+      {
+      "img1":"http://propamat.pe/wp-content/uploads/2017/01/casino-hotel-coquimbo-150x150.jpg",
+      "img2":"http://hispacongo.com/wp-content/uploads/2016/07/hoteles-hilton-3-150x150.jpg",
+      "img3":"http://aff.bstatic.com/images/hotel/square150/139/13997658.jpg",
+      "img4":"https://sobreroma.com/files/Hotel-Petra-Residence-en-Roma-150x150.jpg"
+      }
+
+  ],
+
+"priceMin": 95,
+"priceMax": 200,
+"averageRatePerNight": 95,
+"isAvailable": true,
+"lastUpdate": 4508099576,
+"ratePlansAvailable": [
+            {
+            "id": 4,
+            "name": "All inclusive"
+            }
+        ]
+
+}

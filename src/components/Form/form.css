@@ -1,0 +1,36 @@
+.formContent {
+  background-color: #fff666;
+  border-radius: 0.2rem;
+  border: 1px solid #ccc;
+  height: 160px;
+  margin-top: 1rem;
+  margin-left: 5rem;
+  width: 340px;
+}
+
+.form {
+  padding: 1rem;
+}
+
+.input1 {
+  margin-top: 5px;
+}
+
+.input2 {
+  margin-top: 6px;
+}
+
+.button {
+  margin-top: 10px;
+}
+
+@media (max-width: 1070px) {
+  .formContent {
+    margin: 0 auto;
+    width: auto;
+  }
+
+  .form {
+    text-align: center;
+  }
+}

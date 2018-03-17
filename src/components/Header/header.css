@@ -1,0 +1,15 @@
+.root {
+  align-items: center;
+  background: #2d84cc;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.logo {
+  color: #fff;
+  font-size: 14pt;
+  margin: 0;
+  padding-left: 4rem;
+}

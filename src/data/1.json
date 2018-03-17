@@ -1,0 +1,29 @@
+{
+"id": 1,
+"name": "Grand Hotel Test",
+"description": "This is a big hotel",
+"starRating": 4,
+"images": ["https://res.cloudinary.com/simpleview/image/fetch/c_fill,f_auto,h_250,q_60,w_250/https://res.cloudinary.com/simpleview/image/upload/crm/gulfcoast/original_Beau0_fbf9d496-5056-a36a-06454000501eee8a.jpg"],
+"gallery": [
+      {
+      "img1":"https://segurohoteles.com/wp-content/uploads/2018/01/seguro-hoteles-150x150.jpg",
+      "img2":"https://bonosociohoteles.com/wp-content/uploads/2016/12/ocio-hoteles-bonos-150x150.jpg",
+      "img3":"https://www.pequeviajes.com/wp-content/uploads/2016/05/hoteles-para-ninos-150x150.jpg",
+      "img4":"http://vacacionesensevilla.es/turismo/wp-content/uploads/mejores-hoteles-en-sevilla-con-piscina-150x150.jpg"
+      }
+
+  ],
+
+"priceMin": 100,
+"priceMax": 200,
+"averageRatePerNight": 100,
+"isAvailable": true,
+"lastUpdate": 1506699576,
+"ratePlansAvailable": [
+            {
+            "id": 1,
+            "name": "All inclusive"
+            }
+        ]
+
+}

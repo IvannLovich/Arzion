@@ -1,0 +1,29 @@
+{
+"id": 2,
+"name": "President",
+"description": "The best option for you",
+"starRating": 4,
+"images": ["https://www.aldes.us/images/stories/project_spotlight/thumbs/mini4-hotels.jpg"],
+"gallery": [
+      {
+      "img1":"https://www.promosaereas.com/wp-content/uploads/2017/11/Park-Royal-Cancun-150x150.jpg",
+      "img2":"http://hispacongo.com/wp-content/uploads/2016/07/hoteles-hilton-6-150x150.jpg",
+      "img3":"https://viajandoamontreal.com/wp-content/uploads/2016/02/Hoteles-en-Montreal-150x150.jpg",
+      "img4":"http://www.mozambiqueargentina.org/wp-content/uploads/2016/07/Mhoje_polanaserena_photo_jpg-150x150.jpg"
+      }
+
+  ],
+
+"priceMin": 150,
+"priceMax": 200,
+"averageRatePerNight": 150,
+"isAvailable": true,
+"lastUpdate": 9516699554,
+"ratePlansAvailable": [
+            {
+            "id": 2,
+            "name": "All inclusive"
+            }
+        ]
+
+}

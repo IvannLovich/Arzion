@@ -1,0 +1,22 @@
+.default {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.centered {
+  composes: default;
+  justify-content: center;
+
+}
+
+
+@media (max-width: 828px) {
+
+  .centered {
+    flex-direction: column;
+    
+  }
+
+
+}
