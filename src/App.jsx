@@ -16,10 +16,8 @@ class App extends Component {
         <Fragment>
           <Header />
           <Switch>
-          <Route exact path='/' component={Main} />
-          <Route path='/hotel/:id' component={Details} />
-
-
+            <Route exact path='/' component={Main} />
+            <Route path='/hotel/:id' component={Details} />
           </Switch>
         </Fragment>
       </Router>
