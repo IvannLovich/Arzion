@@ -24078,16 +24078,18 @@ var Details = function (_Component) {
   }
 
   _createClass(Details, [{
-    key: 'componentDidMount',
-    value: function componentDidMount() {
-      // fetch(`http://api.hotels.com/id/${this.props.id}`)
-      //   .then(res => res.json())
-      //   .then(hotel => {
-      //     this.setState({ hotel })
-      //   })
-    }
-  }, {
     key: 'render',
+
+
+    // componentDidMount () {
+    //   // fetch(`http://api.hotels.com/id/${this.props.id}`)
+    //   //   .then(res => res.json())
+    //   //   .then(hotel => {
+    //   //     this.setState({ hotel })
+    //   //   })
+    // }
+
+
     value: function render() {
       var single = __webpack_require__(102)("./" + this.props.match.params.id + '.json');
 
@@ -25383,8 +25385,8 @@ var Main = function (_Component) {
       this.setState({ list: list });
 
       /*
-      Si existiese una api, lo haría de esta manera:
-      fetch(`http://api.hoteling.com?name=${inputNameValue}&price=${inputPriceValue}`)
+      If data would be from an API:
+        fetch(`http://api.hoteling.com?name=${inputNameValue}&price=${inputPriceValue}`)
         .then(res => res.json())
         .then(hotels => {
           this.setState({ list: hotels })

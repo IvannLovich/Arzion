@@ -5,13 +5,13 @@ import Profile from '../../components/Profile'
 
 class Details extends Component{
 
-  componentDidMount () {
-    // fetch(`http://api.hotels.com/id/${this.props.id}`)
-    //   .then(res => res.json())
-    //   .then(hotel => {
-    //     this.setState({ hotel })
-    //   })
-  }
+  // componentDidMount () {
+  //   // fetch(`http://api.hotels.com/id/${this.props.id}`)
+  //   //   .then(res => res.json())
+  //   //   .then(hotel => {
+  //   //     this.setState({ hotel })
+  //   //   })
+  // }
 
 
   render(){

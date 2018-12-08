@@ -34,7 +34,8 @@ class Main extends Component {
     this.setState({ list })
 
     /*
-    Si existiese una api, lo haría de esta manera:
+    If data would be from an API:
+
     fetch(`http://api.hoteling.com?name=${inputNameValue}&price=${inputPriceValue}`)
       .then(res => res.json())
       .then(hotels => {
