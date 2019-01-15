@@ -33,15 +33,23 @@
     "sinon": "^4.4.2",
     "style-loader": "^0.20.2",
     "webpack": "^3.11.0",
-    "webpack-dev-server": "^2.11.1"
+    "webpack-dev-server": "^3.1.11"
   },
   "dependencies": {
-    "bootstrap": "^4.0.0",
+    "atob": "^2.1.0",
+    "bootstrap": "^4.1.2",
+    "cryptiles": "^4.1.2",
     "firebase": "^4.10.1",
+    "macaddress": "^0.2.9",
+    "merge": "^1.2.1",
     "normalize.css": "^8.0.0",
+    "protobufjs": "^5.0.3",
+    "randomatic": "^3.0.0",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0",
+    "react-dom": "^16.2.1",
     "react-router-dom": "^4.1.1",
+    "sshpk": "^1.13.2",
+    "url-parse": "^1.4.3",
     "uuid": "^3.2.1"
   },
   "standard": {
